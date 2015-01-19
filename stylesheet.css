@@ -150,16 +150,23 @@ li .active{
 	margin-top:15px;
 }
 
-.features h1{
-	position:relative;
-	top:10px;
-}
-.feature h2{
-	font-weight: bold
+
+.features h2{
+	font-weight: normal
 }
 
-.feature h3{
+.features h3{
+	padding-top:35px;
+	/*margin-top:35px;*/
 	font-weight: normal;
+	/*color:black !important;*/
+	font-family: 'Raleway', sans-serif;
+	font-size:23px;
+	line-height:1.15;
+}
+
+.features a{
+	color:black !important;
 }
 
 .footer li{
@@ -169,7 +176,7 @@ li .active{
 
 .biography{
 	height:300px;
-	border-bottom:2px solid black;
+	border-bottom:1px solid black;
 	padding-top:15px;
 	margin-bottom:10px;
 }
@@ -185,7 +192,7 @@ li .active{
 }
 
 .extrainfo{
-	border-bottom:2px solid black;
+	/*border-bottom:1px solid black;*/
 }
 .extrainfo a{
 	color:black;
@@ -195,25 +202,16 @@ li .active{
 	color:#0044ee;
 }
 
-.header{
-	background-color: #ebfcff;
+#WhoWeAre{
 	position:relative;
-	height:100px;
 	top:-20px;
-	padding-bottom: 10px;
-	border-bottom: 1px solid black;
+	height:500px;
+	background: 
+		linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+		url('iStockHome3.png');
+	/*background-image:url('iStockHome3.png');*/
+	background-repeat:no-repeat;
+	background-size: 1500px 700px;
+	border-bottom:2px black solid;
 }
 
-.header h3{
-	font-family: 'Raleway', sans-serif;
-}
-
-.header h1{
-	font-family: 'Merriweather', sans-serif;
-	margin-left:130px;
-}
-
-.mission h3{
-	font-family: 'Raleway',sans-serif;
-	font-weight: normal;
-}
