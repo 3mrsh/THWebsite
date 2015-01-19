@@ -1,0 +1,219 @@
+.nav{
+	background-color: white;
+	height: 55px;
+	font-family: 'Merriweather', sans-serif;
+	border-bottom:2px solid black;
+	padding-bottom: 5px;
+}
+
+.nav .container{
+	position:relative;
+	top:20px;
+}
+
+.nav a{
+	/*color: #716f6f;*/
+	color:black;
+	font-size:16px;
+	font-weight:bold;
+	padding: 10px 10px;
+}
+
+.nav a:hover{
+	color:black;
+
+}
+.nav li{
+	display:inline;
+}
+
+#Triggr{
+	color:#0066ff;
+}
+#Health{
+	color:#ff9900;
+}
+li .active{
+	border-bottom: blue 3px solid;
+}
+
+#Placeholder{
+	color: black;
+	font-family: 'Raleway', sans-serif;
+	font-size:18px;
+	border:1px black solid;
+	margin-bottom:15px;
+	border-radius: 4px;
+	/*background-color:#ebfcff;*/
+}
+
+#Placeholder:hover{
+	/*background-color:#fcffeb;*/
+	color:black;
+	border:1px black solid;	
+}
+
+#homepage{
+	position:relative;
+	top:-20px;
+	height:500px;
+	background: 
+		linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+		url('iStockHome3.png');
+	/*background-image:url('iStockHome3.png');*/
+	background-repeat:no-repeat;
+	background-size: 1500px 700px;
+	border-bottom:2px black solid;
+}
+
+#homepage h1{
+	position:relative;
+	top:150px;
+	line-height:1.15;
+	/*right:70px;*/
+	/*color:#f2fafc;*/
+	color:white;
+	font-family:'Merriweather', sans-serif;
+}
+
+#homepage p{
+	position:relative;
+	top:160px;
+	/*color:#f2fafc;*/
+	color:white;
+	font-weight: lighter;
+	/*right:70px;*/
+	font-size: 20px;
+	/*font-family:'Merriweather', sans-serif;*/
+}
+
+#JumbotronButton{
+	top:200px;
+	left:90px;
+	position:relative;
+}
+
+.button{
+	border-radius: 4px;
+	width:150px;
+	height:60px;
+	font-family: 'Raleway', sans-serif;
+	font-size:18px;
+	float:right;
+	border:1px white solid;
+	margin: 30px 30px 30px 30px;
+}
+
+.button a{
+	position:relative;
+	top:20px;
+	/*padding:5px;*/
+	color: white;
+	font-family: 'Raleway', sans-serif;
+	font-size:20px;
+}
+
+.button:hover{
+		background:linear-gradient(rgba(270, 270, 270, 0.5), rgba(320, 320, 320, 0.5));
+}
+
+#type2button{
+	position:relative;
+	bottom:30px;
+	border:1px solid black !important;
+	float:none;
+}
+
+#Individual{
+	background-color:yellow;
+	border:1px solid red;
+	width:20%;
+}
+#Doctor{
+	background-color:green;
+	border:1px solid red;
+	width:20%;
+}
+#Info li{
+	display:inline !important;
+}
+.footer .container{
+	margin-top:10px;
+	padding-top:14px;
+	border-top: 1px solid #636363;
+	padding-bottom:6px;
+	/*margin-bottom:10px;*/
+}
+
+.feature .container{
+	border-bottom:1px solid black;
+	margin-top:15px;
+}
+
+.features h1{
+	position:relative;
+	top:10px;
+}
+.feature h2{
+	font-weight: bold
+}
+
+.feature h3{
+	font-weight: normal;
+}
+
+.footer li{
+	display:inline;
+	padding:5px;
+}
+
+.biography{
+	height:300px;
+	border-bottom:2px solid black;
+	padding-top:15px;
+	margin-bottom:10px;
+}
+
+.biography img{
+	float:right;
+	position:relative;
+	top:-120px;
+}
+
+#biography_paragraph{
+	width:650px;
+}
+
+.extrainfo{
+	border-bottom:2px solid black;
+}
+.extrainfo a{
+	color:black;
+}
+
+.extrainfo a:hover{
+	color:#0044ee;
+}
+
+.header{
+	background-color: #ebfcff;
+	position:relative;
+	height:100px;
+	top:-20px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid black;
+}
+
+.header h3{
+	font-family: 'Raleway', sans-serif;
+}
+
+.header h1{
+	font-family: 'Merriweather', sans-serif;
+	margin-left:130px;
+}
+
+.mission h3{
+	font-family: 'Raleway',sans-serif;
+	font-weight: normal;
+}
