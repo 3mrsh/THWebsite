@@ -114,29 +114,57 @@ li .active{
 }
 
 .button:hover{
-		background:linear-gradient(rgba(270, 270, 270, 0.5), rgba(320, 320, 320, 0.5));
+	background:linear-gradient(rgba(270, 270, 270, 0.5), rgba(320, 320, 320, 0.5));
 }
 
 #type2button{
 	position:relative;
-	bottom:30px;
-	border:1px solid black !important;
+	bottom:20px;
+	left:-20px;
 	float:none;
+	/*width:375px;*/
+	border-radius:7px;
 }
 
-#Individual{
-	background-color:yellow;
-	border:1px solid red;
-	width:20%;
+#type2button p{
+	font-size:14px;
 }
-#Doctor{
-	background-color:green;
-	border:1px solid red;
-	width:20%;
+
+.newbutton{
+	border-radius: 4px;
+	/*height:60px;*/
+	font-family: 'Raleway', sans-serif;
+	font-size:18px;
+	background:white;
+	border:1px white solid;
+	margin: 0px 0px 0px 0px;
 }
-#Info li{
-	display:inline !important;
+
+.newbutton a{
+	position:relative;
+	/*top:20px;*/
+	padding:5px;
+	color: white;
+	font-family: 'Raleway', sans-serif;
+	font-size:20px;
 }
+
+.newbutton:hover{
+	background:linear-gradient(rgba(270, 270, 270, 0.5), rgba(320, 320, 320, 0.5));
+}
+
+#text{
+	position:relative;
+	top:10px;
+	background-color: white;
+	border-radius:7px;
+}
+
+#newbuttoncontainer{
+	background:white;
+	border-radius:7px;
+}
+
 .footer .container{
 	margin-top:10px;
 	padding-top:14px;
@@ -157,7 +185,7 @@ li .active{
 
 .features h3{
 	padding-top:35px;
-	/*margin-top:35px;*/
+	/*margin-top:35px;
 	font-weight: normal;
 	/*color:black !important;*/
 	font-family: 'Raleway', sans-serif;
@@ -169,6 +197,33 @@ li .active{
 	color:black !important;
 }
 
+#test1{
+	border:1px solid green;
+}
+#test2{
+	border:1px solid yellow;
+}
+#test3{
+	border:1px solid black;
+}
+#test4{
+	border:1px solid blue;
+}
+
+#InfoHeadingIcon{
+	margin-left:10px;
+	/*position:relative;
+	top:20px;*/
+	font-size:150px;
+	color:#6d6d6d;
+}
+#InfoHeadingIcon2{
+	margin-left:10px;
+	/*position:relative;
+	top:20px;*/
+	font-size:150px;
+	color:#6d6d6d;
+}
 .footer li{
 	display:inline;
 	padding:5px;
@@ -191,14 +246,22 @@ li .active{
 	width:650px;
 }
 
-.extrainfo{
-	/*border-bottom:1px solid black;*/
-}
-.extrainfo a{
-	color:black;
+.userinfolarger{
+	position:relative;
+	bottom:20px;
+	background-color:#e6e6e6;
 }
 
-.extrainfo a:hover{
+.userinfo{
+	width:80%;
+	margin:auto;
+}
+
+.userinfo a{
+	color:black;;
+}
+
+.userinfo a:hover{
 	color:#0044ee;
 }
 
