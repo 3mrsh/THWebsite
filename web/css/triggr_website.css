@@ -1,0 +1,182 @@
+@font-face {
+    font-family: ralewayThin;
+    src: url(../fonts/raleway-thin.ttf);
+}
+
+@font-face {
+    font-family: helvetica-neue-thin;
+    src: url(../fonts/HelveticaNeue-Thin.otf);
+}
+
+* {
+    font-family: helvetica-neue-thin, "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+.header {
+	font-family: helvetica-neue-thin, "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif !important;
+	font-weight: normal !important;
+	font-size: 40px !important;
+	letter-spacing: 0px !important;
+	padding-bottom: 40px;
+}
+
+.team-header {
+	font-family: helvetica-neue-thin, "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif !important;
+	font-weight: normal !important;
+	font-size: 40px !important;
+	letter-spacing: 0px !important;
+	padding-bottom: 20px;
+}
+
+.subheader {
+	font-family: helvetica-neue-thin, "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight: normal !important;
+	font-size: 30px !important;
+}
+
+.subheader-text {
+	color: #444444;
+}
+
+.brand-icon {
+
+}
+
+.padding20 {
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+.black {
+	color: black;
+}
+
+.white {
+	color: white;
+}
+
+.title-brand {
+	font-weight: normal;
+	font-family: ralewayThin;
+	color: #222222 !important;
+}
+
+.tab-item {
+	font-size: 17px !important;
+	/*font-weight: bold !important;*/
+}
+
+.tab-item:hover {
+	cursor: pointer;
+}
+
+.tagline-section {
+    padding-top: 180px;
+    padding-bottom: 100px;
+    background-size: 100% 100% !important;
+    background-repeat: no-repeat !important;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../img/user-with-phone.png');
+}
+
+.main-one-liner-tagline {
+	color: white;
+	font-family: helvetica-neue-thin, "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif !important;
+	font-size: 50px;
+}
+
+.main-one-liner-text {
+	text-align: center;
+	padding-top: 10px;
+	padding-left: 23%;
+	padding-right: 23%;
+	color: #fefefe;
+	font-family: helvetica-neue-thin, "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif !important;
+	font-size: 23px;
+}
+
+.border-blue {
+	border: 1px solid #55afff;
+	color: #55afff;
+}
+
+.border-blue:hover{
+    background-color: #55afff;
+    border-color: #55afff;
+    color:#fff;
+}
+
+.button {
+	font-family: helvetica-neue-thin, "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif !important;
+	font-size: 17px;
+}
+
+.left-button {
+	margin-right: 18px;
+}
+
+.how-it-works-section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #ffffff;
+}
+
+.icon-box {
+	color: #999999;
+	display: table;
+	margin: 0 auto;
+	padding-bottom: 40px;
+}
+
+.providers-section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #efefef;
+}
+
+.icon-large {
+	font-size: 150px;
+	padding-bottom: 20px;
+}
+
+.patients-section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: white;
+}
+
+.app-features-row {
+	padding-top: 40px;
+}
+
+.privacy-section {
+	padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #ddeFff;
+}
+
+.about-us-section {
+	padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #444;
+}
+
+.team-row {
+	padding-top: 30px;
+}
+
+.contact-us-section {
+	padding-top: 70px;
+    padding-bottom: 0px;
+    background-color: white;
+}
+
+.submit-message-button {
+	display: table;
+	margin: 0 auto;
+	background-color: white;
+	font-family: helvetica-neue-thin, "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif !important;
+	font-size: 17px;
+}
+
+
+
